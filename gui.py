@@ -7,8 +7,8 @@ import tkinter as tk
 import tkinter.ttk as ttk
 
 # load vector data : both cbow and skip-gram
-model1 = KeyedVectors.load_word2vec_format('./cbow30.bin', unicode_errors='ignore', binary=True)
-model2 = KeyedVectors.load_word2vec_format('./skip20.bin', unicode_errors='ignore', binary=True)
+model1 = KeyedVectors.load_word2vec_format('/Users/Nozomi/files/metonymy/cbow30.bin', unicode_errors='ignore', binary=True)
+model2 = KeyedVectors.load_word2vec_format('/Users/Nozomi/files/metonymy/skip20.bin', unicode_errors='ignore', binary=True)
 
 # callback for Enter key
 def enter(event):
